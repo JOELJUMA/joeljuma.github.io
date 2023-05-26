@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(2, 2, 68);
+        }
+             .we{
+   
+ color: #fff;   
+}
+ .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 class="we">Contact Me</h2>
+    <p class="we"<a href="home.html" class="home-button">Home</a>If you're interested in collaborating on a project, discussing new opportunities, or simply want to connect, <br>please
+    don't hesitate to reach out. I'm always excited to engage in meaningful conversations, share knowledge, and contribute
+    to the software engineering community.</p>
+    <form action="submit_contact_form.php" method="POST">
+        <label style="color: aliceblue;" for="name"> First Name*</label>
+        <input type="text" id="name" name="name" required>
+    
+    <br> <label style="color: aliceblue; "for="email">Last Name*</label>
+        <input type="email" id="email" name="name" required><br>
+    
+        <label style="color: aliceblue; "for="message">Email*</label>
+        <input type="text" id="name" name="email" required><br>
+
+<label style="color: aliceblue; " for="message">Message*</label><br>
+        <textarea style="color: aliceblue; " id="message" name="message" rows="4" required></textarea><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <img src="DEV4.jpg" alt="Description of the image" width="800" height="210">
+    <p class="we"><i>Thank you for visiting my website, and I hope you find it informative and inspiring.<br> Let's innovate, create, and shape
+    the future of technology together!</i></p>
+
+    <a href="home.html" class="home-button">Home</a>
+    <script>
+        console.log(this);
+    </script>
+</body>
+</html>
